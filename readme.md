@@ -16,14 +16,48 @@ complex ideas?
 
 Variables are defined in C# as:
 
-string message;
+    string message;
 
 This defines a variable called 'message'. The keyword 'string' means that the variable can only hold a string, 
 and not a number or any other type.
 
 Assignment of a value:
 
-string message = "Hello";
-message = "Hello World";
+    string message = "Hello";
+    message = "Hello World";
+    
+The 'var' keyword can replace any datatype, as long as the compiler can infer what the underlying datatype is. 
 
+    var message = "Hello";
 
+Data types
+----------
+
+There are many types of data in C#. The first category is value types.
+
+    bool isEmployee; // a true/false value;
+    isEmployee = true;
+    isEmployee = false;
+    
+    int count; // an alias for Int32
+    count = 5;
+    Int32 count2 = 7;
+    Int64 count3 = 27364; // 64-bit number, holds larger values
+    Int16 count4 = 45; // a 16-bit number, for small numbers
+    
+    double numX = 45.2;
+
+Any many more here:
+https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/types-and-variables
+    
+You can define custom datatypes as a 'class'.
+
+Classes
+-------
+
+      public class Employee
+      {
+          public string FirstName { get; set; }
+          public string LastName { get; set; }
+      }
+      
