@@ -50,7 +50,36 @@ There are many types of data in C#. The first category is value types.
 Any many more here:
 https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/types-and-variables
     
-You can define custom datatypes as a 'class'.
+You can define custom datatypes as a 'class'.  Let's get back to that later.
+
+Methods (functions)
+-------------------
+
+A method is equivalent to functions or procedures in other languages.
+
+    public void DoSomething()
+    {
+        var x = 5;
+        var y = x + 3;
+        Console.Write("y is ", y);
+    }
+ 
+The first keyword 'public' is the scope of the method, or in other words, what code can see and call it.  use 'public' until you find a need for the others, "private", "protected" and "internal".
+
+* private:  only the class defining the method can see/use it.
+* public: any code that can see the class can use it.
+* protected: like private, but also visibe to 'derived' classes.
+* internal: like private, but also visible to any other code in the same project.
+
+The second part is the return datatype of the method call.  Use 'void' if the method does not return a value.
+
+Inside method parenthesis, you can define required parameters (arguments) to be used. You cannot use 'var' as the type of a method
+parameter.
+
+    public int Add(int x, int y)
+    {
+        return x + y;
+    }
 
 Classes
 -------
@@ -60,4 +89,38 @@ Classes
           public string FirstName { get; set; }
           public string LastName { get; set; }
       }
-      
+
+Usually, classes are defined in a separate file each, named the same as the class name and with a ".cs" file extension.
+File names are not required to match, and multiple CAN be in the same file.
+
+You can define a variable of a class type the same as any value type. However, creating a new value requires the 'new' keyword.
+
+    Employee emp1;
+    emp1 = new Employee();
+    Employee emp2 = new Employee();
+
+You can interact with a class' properties with the "dot" syntax.
+
+    var emp3 = new Employee();
+    emp3.FirstName = "Mary";
+    emp3.LastName = "Smith";
+    
+The parenthesis after 'new Employee()' are a method call to the 'constructor' method of the class. Every class has an implied
+constructor that does nothing, unless you create a constructor yourself. You can add additional parameters that take values as
+any other method would do.
+
+      public class Employee
+      {
+          public string FirstName { get; set; }
+          public string LastName { get; set; }
+          
+          public Employee()
+          {
+          }
+          
+          public Employee(string firstName, string lastName)
+          {
+              this.FirstName = firstName;
+              this.LastName = lastName;
+          }
+      }
