@@ -1,7 +1,7 @@
 About Nexul Academy
 ===========================
 
-At Nexul Academy we specialize in Hml, Css, JavaScript, Angular, NativeScript, C#, Xamarin, MVC, Sql, Entity Framework, VS Code, NPM, and related technologies and code patterns. We have also mentored students with Python, nodejs and other web technologies, freelancing, project planning, and more developer responsibilities. Ask us anything while you're here.
+At Nexul Academy we specialize in Html, Css, JavaScript, Angular, NativeScript, C#, Xamarin, MVC, Sql, Entity Framework, VS Code, NPM, and related technologies and code patterns. We have also mentored students with Python, nodejs and other web technologies, freelancing, project planning, and more developer responsibilities. Ask us anything while you're here.
 
 Our classroom space is located in the Central West End, in the bank of America building at 4625 Lindell Blvd, on the second floor.
 
