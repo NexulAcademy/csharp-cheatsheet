@@ -52,18 +52,62 @@ https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/types-and-variable
     
 You can define custom datatypes as a 'class'.  Let's get back to that later.
 
+Math
+----
+
+Mathmatical operators let you combine variables containing multiple values into a new variable or to replace an existing variable value.
+
+
+    var x = 5;
+    var y = x + 3;
+    Console.WriteLine("y is " + y);
+
+    var b = x - 2;
+    var c = x * 2;
+    var d = 2 / 2;
+    var m = 10 % 2;
+    Console.WriteLine(m + " is the value of m");
+          
+
+String concatenation
+--------------------
+
+You can combine strings in a few ways.
+
+* adding them together with the plus operator
+* string.Format() method
+* string interpolation
+
+        static void DoSomething()
+        {
+            var x = 5;
+            var y = x + 3;
+            Console.WriteLine("y is " + y);
+
+            var s0 = string.Format("The value of y is {0}", y);
+            Console.WriteLine(s0);
+
+            var s1 = $"The value {x} is in variable x";
+            Console.WriteLine(s1);
+        }
+
+
 Methods (functions)
 -------------------
 
-A method is equivalent to functions or procedures in other languages.
+A method is equivalent to functions or procedures in other languages. A method is always defined in a class. 
 
-    public void DoSomething()
+    class Program
     {
-        var x = 5;
-        var y = x + 3;
-        Console.Write("y is ", y);
+        static void Main()
+        {
+            var x = 5;
+            var y = x + 3;
+            Console.Write("y is " + y);
+        }
     }
- 
+
+
 The first keyword 'public' is the scope of the method, or in other words, what code can see and call it.  use 'public' until you find a need for the others, "private", "protected" and "internal".
 
 * private:  only the class defining the method can see/use it.
@@ -124,3 +168,10 @@ any other method would do.
               this.LastName = lastName;
           }
       }
+
+
+Further resources
+-----------------
+
+Follow along creating a tic-tac-toe game in a C# console app with this workshop:
+https://github.com/NexulAcademy/intro-csharp-tictactoe
