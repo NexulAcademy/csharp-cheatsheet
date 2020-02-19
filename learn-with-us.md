@@ -7,19 +7,19 @@ Our classroom space is located in the Central West End, in the bank of America b
 
 Learn more at https://www.nexulacademy.com/
 
-Upcoming 12 and 25 week bootcamps:
+We offer 12 and 25 week bootcamps. All training includes a year of extended support and job placement assistance in St. Louis, Missouri.
 
 Daytime tracks:
 -------------------------------
 
-Semesters are 12 weeks long with 4 weeks between the end of one semester and the start of another. There are 3 semesters per year. Full-time students can complete the program in one semester. Part-time students can complete the program in 2 semesters. part-time meets 2 days per week while full-time meets 4 days per week.
+Trimesters are 12 weeks long with 4 weeks between the end of one trimester and the start of another. There are 3 trimesters per year. Full-time students can complete the program in one trimester. Part-time students can complete the program in 2 trimesters. part-time meets 2 days per week while full-time meets 4 days per week.
 
 Daytime classes meet from 9 am to noon for structured class time. students have access to a mentor during all business hours 8:30 am to 5pm weekdays once they enroll and for up to a year after graduation.
 
 Start dates:
-Feb 24, 2020: Daytime winter semester begins
-June 15, 2020: Daytime summer semester begins
-October 12, 2020: Daytime fall semester begins
+Feb 24, 2020: Daytime winter trimester begins
+June 15, 2020: Daytime summer trimester begins
+October 12, 2020: Daytime fall trimester begins
 
 Evening tracks:
 -------------------------------
