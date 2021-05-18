@@ -1,3 +1,7 @@
+This repository is ARCHIVED. More up to date and organized content can be found here:
+
+https://www.nexulacademy.com/courseware/csharp-introduction
+
 C# Cheatsheet
 ===============
 
